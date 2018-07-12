@@ -31,10 +31,10 @@ TARGET_CPU_VARIANT := cortex-a53
 TARGET_CPU_CORTEX_A53 := true
 
 # Kernel
-TARGET_PREBUILT_KERNEL := device/samsung/a6ltexx/kernel
+TARGET_PREBUILT_KERNEL := device/samsung/j6ltedx/kernel
 BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x10000000
-BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt device/samsung/a6ltexx/dt.img
+BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt device/samsung/j6ltedx/dt.img
 
 # File systems
 BOARD_HAS_LARGE_FILESYSTEM := true
