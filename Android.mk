@@ -1,1 +1,1 @@
-LOCAL_PATH := device/samsung/a6ltexx/
+LOCAL_PATH := device/samsung/j6ltedx/

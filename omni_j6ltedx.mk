@@ -5,7 +5,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier
-PRODUCT_DEVICE := a6ltexx
-PRODUCT_NAME := omni_a6ltexx
+PRODUCT_DEVICE := j6ltedx
+PRODUCT_NAME := omni_j6ltedx
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
